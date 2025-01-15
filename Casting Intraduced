@@ -1,0 +1,13 @@
+#Casting intraduced
+#Casting is a way to change data types
+#examples:
+
+age = str(input("enter age"))
+ageInt = int(age)
+total = ageInt+10
+print(total)
+
+#The following functions allow you to "cast"
+int()
+str()
+float()
