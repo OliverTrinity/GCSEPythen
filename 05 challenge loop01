@@ -1,0 +1,7 @@
+#05 chalanges loop challenge 01
+total = 0
+while total <= 50:
+    print("print a number")
+    num = int(input())
+    total = total+num
+    print("your total is", total)
