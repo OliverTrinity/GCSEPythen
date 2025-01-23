@@ -1,0 +1,5 @@
+#05 while loop chalanges05
+compnum = 50
+print("print a number")
+count = 1
+while count =! compnum:   
