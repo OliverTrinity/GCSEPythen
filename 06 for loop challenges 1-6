@@ -1,0 +1,33 @@
+
+#chalange 1
+name = input("enter your name")
+for i range(3):
+    print(name)
+#chalange 2
+name = input("enter you name:")
+number = int(input("enter a number:"))
+for i in range(number):
+    print(name)
+#chalange 3
+name = input("enter you name")
+for SingleLetter in name:
+    print(SingleLetter)
+#chalange 4
+num = int(input("enter a number"))
+for i in range(1, 12):
+    print(f"{num} x {i} = {num*i}")
+#chalange 5
+f = int(input("enter a number  bellow 50"))
+n = 50
+d = -1
+for n in range(n,f,d):
+    print(n)
+#chalange 6
+total = 0
+for i in range(5):
+    num = int(input("eneter a number"))
+    include = input("do you want to include this number(y/n)")
+    if include == "y":
+        total += num
+print("the total is", total)
+
