@@ -1,0 +1,14 @@
+#04 selection shalanges
+#chalange 1
+num1 = int(input("enter a number"))
+num2 = int(input("enter a second number"))
+if num1 > num2:
+    print(num2)
+    print(num1)
+else:
+    print(num1)
+    print(num2)
+#chlange 2
+num1 = int(input("enter a number that is less than 20")
+if num > 20:
+    print(
