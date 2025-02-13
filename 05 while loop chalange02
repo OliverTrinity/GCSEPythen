@@ -1,6 +1,0 @@
-#05 while loop chalanges02
-num = 0
-while num < 5:
-    print("enter a number")
-    num = int(input())
-print("the last number you entered was a",num)
