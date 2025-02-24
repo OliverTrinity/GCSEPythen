@@ -1,0 +1,15 @@
+#07 string sclice challanges
+#chalange 01
+name = input("enter your name:")
+print(len(name))
+#chalange 02
+nameFirst = input("enter your first name")
+nameSecond = input("enter your second name")
+fullname = nameFirst+" "+nameSecond
+print(fullname)
+print(len(fullname))
+#chalange 03
+name1 = input("enter your full name")
+name2 = input("enter your second name")
+name = name1 + " " + name2
+print(name)
