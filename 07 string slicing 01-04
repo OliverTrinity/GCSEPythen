@@ -13,3 +13,10 @@ name1 = input("enter your full name")
 name2 = input("enter your second name")
 name = name1 + " " + name2
 print(name)
+#chlange 04
+rhyme = input("enter a nersery rhyme")
+length =len(rhyme)
+print("this has" ,length,"letters in it")
+num1 = int(input("enter a number"))
+num2 = int(input("enter a number"))
+print(rhyme[num1:num2])
