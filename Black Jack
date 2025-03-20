@@ -1,5 +1,12 @@
+# Black Jack
+# game repeat
 game = True
 while game == True:
+    #Chips
+
+
+
+    
     #imports 2 random card
     import random
     suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
@@ -46,28 +53,35 @@ while game == True:
     # player standing and hitting
     while True:
         print(f'Player hand: {player} ({calculate_hand_value(player)})')
-        print("----------------------------------------------")
+    #betting chips
+
+
+        
+    # player standing and hitting continued
+        print("")
         print(f'Dealer hand: [{dealer[0]}, <face down>]')
 
         if calculate_hand_value(player) > 21:
             print('Player busts!')
             break
         action = input('Do you want to hit or stand? ')
-
+    
         if action.lower() == 'hit':
             deal_cards(deck, player)
             print("----------------------------------------------")
         else:
+            print("----------------------------------------------")
             
             break
             
 
     print(f'Player hand: {player} ({calculate_hand_value(player)})')
+    print("")
     print("----------------------------------------------")
     print(f'Dealer hand: {dealer} ({calculate_hand_value(dealer)})')
 
     # dealer standing and hitting
-    while calculate_hand_value(dealer) < 10:
+    while calculate_hand_value(dealer) < 12:
         print("dealer hit")
         deal_cards(deck, dealer)
         print(f'Dealer hand: {dealer} ({calculate_hand_value(dealer)})')
@@ -91,13 +105,14 @@ while game == True:
         print('Dealer wins!')
     else:
         print('Push!')
-    print("============================================")
+    print("=============================================")
 
     #play again?
     play = input("would you like to play again(y/n)")
     if play == "y":
         game = True
-        print("============================================")
+        print("=============================================")
     else:
         game = False
-
+        print("=============================================")
+        print("thank you for playing")
