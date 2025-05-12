@@ -1,0 +1,21 @@
+#1D array/list chalange
+#list chalange 01
+cars = []
+cars.append(input("enter a 1 car brand"))
+cars.append(input("enter a 2 car brand"))
+cars.append(input("enter a 3 car brand"))
+print(cars)
+
+#list chalange 02
+newcars = []
+game = True
+while game == True:
+    car = input("Enter a car brand (or 'x' to exit): ")
+    if car == "x":
+        print("Exiting...")
+        game = False
+    else:
+        newcars.append(car)
+print("Cars entered:", newcars)
+
+#list chalanges 03  
