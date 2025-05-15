@@ -1,0 +1,35 @@
+#2D array challenge 01
+#2d array chalange 01
+MyspaceCompany = []
+print(MyspaceCompany)
+MyspaceCompany.append(input("enter a type of space vehicle"))
+MyspaceCompany.append(input("enter a type of space vehicle"))
+MyspaceCompany.append(input("enter a type of space vehicle"))
+print(MyspaceCompany)
+#2d array chalange 02
+MyspaceCompany = ["Rocket pack", "moon bace", "moon buggy"]
+print(MyspaceCompany)
+MyspaceCompany[0] = "rich people are going to mars"
+print(MyspaceCompany)
+MyspaceCompany[1] = "rich people are going to the moon"
+print(MyspaceCompany)
+#2D ARRAY chalange 03
+stuff = [
+        ['1','2','3','4'],
+        ['a','b','c','d'],
+        ['I','II','III','IV'],
+        ]
+print(stuff)
+stuff[1][2] = "Croydon"
+print(stuff)
+#2d array chalange 04
+OuterArray = []
+InnerArray1 = []
+InnerArray2 = []
+print(OuterArray)
+OuterArray.append(InnerArray1)
+OuterArray.append(InnerArray2)
+print(OuterArray)
+#2d array chalange 05
+EmptyArray = [[0 for column in range(5)]for row in range(2)]
+print(EmptyArray)
