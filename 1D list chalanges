@@ -18,4 +18,24 @@ while game == True:
         newcars.append(car)
 print("Cars entered:", newcars)
 
-#list chalanges 03  
+#list chalanges 03
+name = []
+game = True
+name.append(input("enter a first name"))
+name.append(input("enter a second name"))
+name.append(input("enter a third name"))
+while game == True:
+    name_input = input("do you want to input a new name:no/yes")
+    if name_input == "no":
+        game = False
+        print("you entered",len(name),"names")
+
+    else:
+        name.append(input("enter a new name"))
+#list chalanges 04
+programs = ['rick and mortey','family guy','avatar','mr Beast']
+print(programs)
+programs1 = input("enter a new program")
+num = input("where do you want it in the list")
+num = num - 1
+program1.append(num)
