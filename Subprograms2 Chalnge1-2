@@ -1,0 +1,63 @@
+#subprogram2
+#subprogram2 chalange1
+def menu():
+    num1 = int(input("0 to exit \n1 for timetables\n"))
+    if num1 == 0:
+        print("bye!")
+    elif num1 == 1:
+        num2 = timetable()      # Get number 1–12
+
+        print("\nFirst 10 multiples of " + str(num2) + ":")
+        for i in range(1, 11):  # 1 to 10
+            print(str(num2) + " x " + str(i) + " = " + str(num2 * i))
+    else:
+        print("Invalid input")
+def timetable():
+    num2 = int(input("Enter a number between 1 and 12: "))
+    return num2
+
+#subprogram2 chalange2
+def menu():
+    num1 = int(input("0 to exit \n1 for timetables\n2 for addition\n"))
+    if num1 == 0:
+        print("bye!")
+    elif num1 == 1:
+        num2 = timetable()   # Get number 1–12
+        print("\nFirst 10 multiples of " + str(num2) + ":")
+        for i in range(1, 11):  # 1 to 10
+            print(str(num2) + " x " + str(i) + " = " + str(num2 * i))
+    elif num1 == 2:
+        add_two_numbers()
+    else:
+        print("Invalid input")
+
+def timetable():
+    num2 = int(input("Enter a number between 1 and 12: "))
+    return num2
+def add_two_numbers():
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    print("The sum is:", a + b)
+#subprogram chalange3
+def menu():
+    num1 = int(input("0 to exit \n1 for timetables\n2 for addition\n"))
+    if num1 == 0:
+        print("bye!")
+    elif num1 == 1:
+        num2 = timetable()   # Get number 1–12
+        print("\nFirst 10 multiples of " + str(num2) + ":")
+        for i in range(1, 11):  # 1 to 10
+            print(str(num2) + " x " + str(i) + " = " + str(num2 * i))
+    elif num1 == 2:
+        add_two_numbers()
+    else:
+        print("Invalid input")
+
+def timetable():
+    num2 = int(input("Enter a number between 1 and 12: "))
+    return num2
+def add_two_numbers():
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    print("The sum is:", a + b)
+def multiplication():
